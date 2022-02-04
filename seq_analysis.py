@@ -144,7 +144,7 @@ def count_nucleotides(dna_seq) -> dict:
 
     for nuc in dna_seq:
         if nuc not in result:
-            continue # I'm a bad boy. Slap me hard!
+            continue 
         result[nuc] += 1
         
     return result
@@ -190,7 +190,6 @@ def complement(sequence) -> str:
     result      = []
     
     for nuc in sequence:
-        
         if nuc.upper() not in complements:
             result.append("?")
             continue

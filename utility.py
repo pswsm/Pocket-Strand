@@ -2,11 +2,6 @@ import os
 from pathlib import Path
 
 # Menu details--------------------------------------------------------
-main = {
-    1:"Randomize sequence",
-    2:"Sequence Analysis",
-    3:"Exit"
-}
 
 padding = 3
 

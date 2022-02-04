@@ -39,7 +39,7 @@ codons = {
 amino_acids = sorted(list(set([codons[i] for i in codons])))
 "Re-uses the 'codons' dictionary and gets the amino acid list."
 
-
+# Menu of random functions-----------------------------------------------------------------
 def display_randomization_menu():
     "Displays the options for random nucleotide or amino acid sequences. "    
     
